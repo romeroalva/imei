@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "bashdb",
+      "request": "launch",
+      "name": "Launch IMEI Script",
+      "program": "${workspaceFolder}/${input:scriptName}"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "scriptName",
+      "description": "Select the script to debug",
+      "options": [
+        "imei.sh",
+        "update_version_info.sh"
+      ]
+    }
+  ]
+}
