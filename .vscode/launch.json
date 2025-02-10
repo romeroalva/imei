@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run IMEI Script",
+            "type": "bashdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/imei.sh",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "pathBash": "C:\\Program Files\\Git\\bin\\bash.exe"
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        }
+    ]
+}
